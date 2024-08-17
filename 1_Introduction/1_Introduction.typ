@@ -106,7 +106,7 @@ $  mu_i^n (M) = max_(B in X_n (M)) min_(S in B) v_i (S) $ //Cite
 - The allocation $A$ is PO if there is no allocation B such that $v_i(B_i) >= v_i (A_i)$ for all $i$ and one inequality is strict
 - A is not _Pareto Dominated_ by another allocation
 // Can this be computed efficiently?
-
+// Apparently there are a polynomial number of PO allocations?
 === MNW
 - Maximize the geometric mean of values for agents with positive value
 $ (product_i^n v_i (X_i))^(1/n) $
