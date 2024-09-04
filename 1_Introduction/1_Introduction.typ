@@ -32,13 +32,12 @@
 - People want stuff
 - But there is only a finite amount of things
 #pause
-- This is ultimately the fundamental question of economics
-	- How do we study the movement of resources across a society?
+- This is the fundamental question of economics
+	- How do we study the movement of resources within a society?
 
 === The Computational Problem
 - It is a computationally difficult problem to distribute items among people
 - How can we guarantee truthfulness in our algorithm? (People may lie about their value of a good)
-	- This is more concerning when dividing continuous resources
 
 === Applications
 Variations of this problem have been used for
@@ -149,12 +148,14 @@ $  mu_i^n (M) = max_(B in X_n (M)) min_(S in B) v_i (S) $ //Cite
 === MNW
 - Maximize the geometric mean of values for agents with positive value
 $ (product_i^n v_i (X_i))^(1/n) $
-- $"MNW" ->"EF" and "PO"$
+- $"MNW" ->"EF1" and "PO"$
 #proof[
 	
 ]
 - Can an EF1 and PO allocation be computed in polynomial time?
-
+=== Questions
+==== Questions
+== Mechanisms
 === Round Robin
 - Agents receive their most valued remaining good in a set order until no goods remain.
 
@@ -164,8 +165,14 @@ $ (product_i^n v_i (X_i))^(1/n) $
 - If a cycle is found, each agent can receive the bundle of the agent they envy in the cycle
 - "Rotate" bundles around the cycle
 
+== Results
 === Computing EF1
-Round Robin and Envy-Cycle Elimination produce an EF1 Allocation
+Round Robin and Envy-Cycle Elimination produce an EF1 Allocation 
+#proof[
+			
+]
+=== Computing $1/2$ MMS
+Round Robin and Envy-Cycle Elimination produce an EF1 Allocation 
 #proof[
 			
 ]
